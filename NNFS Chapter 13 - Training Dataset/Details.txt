@@ -1,0 +1,11 @@
+Neural networks usually perform best on data consisting of numbers in a range of 0 to 1 or -1 to 1,
+with the latter being preferable. Centering data on the value of 0 can help with model training as it
+attenuates weight biasing in some direction. Models can work fine with data in the range of 0 to 1
+in most cases, but sometimes we’re going to need to rescale them to a range of -1 to 1 to get
+training to behave or achieve better results.
+Speaking of the data range, the values do not have to strictly be in the range of -1 and 1 — the
+model will perform well with data slightly outside of this range or with just some values being
+many times bigger. The case here is that when we multiply data by a weight and sum the results
+with a bias, we’re usually passing the resulting output to an activation function. Many activation
+functions behave properly within this described range. For example, softmax outputs a vector of
+probabilities containing numbers in the range of 0 to 1; sigmoid also has an output range of 0 to 1, but tan h gives the value between -1 to 1 .
