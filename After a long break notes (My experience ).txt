@@ -1,0 +1,8 @@
+Hi My name is Sandesh Bhatta,Now I am Learning the Neural Network for the making the strong Foundation 
+to do AI/ML on future 
+Now this may 20 now i start coding from today after a long sesion of semester exam and some college and interview exam 
+But Before start  i want re call all this 
+so lets start :
+the basics terminology on ai y = wx + b 
+model result is dependent on the weight and bias 
+also calculating the error also called loss = ypred - ygain 
