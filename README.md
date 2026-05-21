@@ -41,34 +41,48 @@ This project implements neural networks from **first principles** without relyin
 
 ## 📂 Course Structure (22 Chapters)
 
+### Folder Overview
 ```
-NNFS Chapter 1 - Introducing Neural Networks
-NNFS Chapter 2 - Coding Our First Neurons
-NNFS Chapter 3 - Adding Layers
-NNFS Chapter 4 - Activation Functions
-NNFS Chapter 5 - Loss
-NNFS Chapter 6 - Introducing Optimization
-NNFS Chapter 7 - Derivatives
-NNFS Chapter 8 - Gradients, Partial Derivatives, and the Chain Rule
-NNFS Chapter 9 - Backpropagation
-NNFS Chapter 10 - Optimizers
-NNFS Chapter 11 - Testing Data
-NNFS Chapter 12 - Validation Data
-NNFS Chapter 13 - Training Dataset
-NNFS Chapter 14 - L1 and L2 Regularization
-NNFS Chapter 15 - Dropout
-NNFS Chapter 16 - Binary Logistic Regression
-NNFS Chapter 17 - Regression
-NNFS Chapter 18 - Model Object
-NNFS Chapter 19 - A Real Dataset
-NNFS Chapter 20 - Model Evaluation
-NNFS Chapter 21 - Saving and Loading Model Information
-NNFS Chapter 22 - Model Predicting_Inference
+Neural Language From Scratch/
+├── NNFS Chapter 1 - Introducing Neural Networks/
+├── NNFS Chapter 2 - Coding Our First Neurons/
+├── NNFS Chapter 3 - Adding Layers/
+├── NNFS Chapter 4 - Activation Functions/
+├── NNFS Chapter 5 - Loss/
+├── NNFS Chapter 6 - Introducing Optimization/
+├── NNFS Chapter 7 - Derivatives/
+├── NNFS Chapter 8 - Gradients, Partial Derivatives, and the Chain Rule/
+├── NNFS Chapter 9 - Backpropagation/
+├── NNFS Chapter 10 - Optimizers/
+├── NNFS Chapter 11 - Testing Data/
+├── NNFS Chapter 12 - Validation Data/
+├── NNFS Chapter 13 - Training Dataset/
+├── NNFS Chapter 14 - L1 and L2 Regularization/
+├── NNFS Chapter 15 - Dropout/
+├── NNFS Chapter 16 - Binary Logistic Regression/
+├── NNFS Chapter 17 - Regression/
+├── NNFS Chapter 18 - Model Object/
+├── NNFS Chapter 19 - A Real Dataset/
+├── NNFS Chapter 20 - Model Evaluation/
+├── NNFS Chapter 21 - Saving and Loading Model Information/
+├── NNFS Chapter 22 - Model Predicting_Inference/
+├── After a long break notes (My experience).txt
+├── Details.txt
+├── README.md
+└── .venv/ (Virtual Environment)
 ```
 
 ---
 
-## 🛠️ Technologies Used
+## � Support Files
+
+- **After a long break notes (My experience).txt** - Personal notes and reflections on learning progress
+- **Details.txt** - Additional project details and documentation
+- **.venv/** - Python virtual environment with all project dependencies
+
+---
+
+## �🛠️ Technologies Used
 
 - **Python 3.x** - Primary programming language
 - **Jupyter Notebooks** - Interactive learning environment
@@ -79,7 +93,26 @@ NNFS Chapter 22 - Model Predicting_Inference
 
 ---
 
-## 💡 Key Learning Principles
+## � Quick Start
+
+1. **Activate Virtual Environment**
+   ```bash
+   .venv\Scripts\activate  # Windows
+   ```
+
+2. **Open Jupyter Notebooks or Python Files**
+   - Navigate to any chapter folder
+   - Open `.ipynb` files in Jupyter for interactive learning
+   - Run `.py` files for complete implementations
+
+3. **Follow the Chapters in Order**
+   - Start with Chapter 1 for foundational concepts
+   - Each chapter builds upon previous knowledge
+   - Refer to personal notes in support files for additional context
+
+---
+
+## �💡 Key Learning Principles
 
 1. **Build from scratch** - Understand implementation before using libraries
 2. **Deep understanding** - Master the mathematics behind algorithms
