@@ -1,5 +1,0 @@
-What is dieing relu 
-overcome by arg relu 
-why relu over siigmoid 
-arg max vs softmax activation functio'n 
-why hideen layer used relu and last layer softmX and sigmoid 
